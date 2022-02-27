@@ -2,4 +2,19 @@
     Header
 ============= */
 header{   
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width:100vw;
+    height:100vh;
 }
+
+svg{
+    position:absolute;
+    transform:scale(2);
+    height: 25%;
+    //height move to 40% when menu opens
+}
+
