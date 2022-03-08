@@ -1,11 +1,51 @@
 /* =============
     Buttons
 ============= */
+
+// button{
+//     border: none;
+//     text-decoration: none;
+//     cursor: default;
+//     background-color: $bg-blue;
+//     color: $white;
+//     transition: 0.25s;
+//     font-family: 'Raleway', sans-serif;
+//     font-weight: 300;
+//     font-size: rem-calc(30);
+//     padding: 20px;
+    
+//     @include md{
+//         font-size: rem-calc(30);
+//         padding: 15px;
+//     }
+    
+//     &:hover{
+//         background-color: $italy-red;
+//         // width: 100vw;
+//         @include md{
+//             display: flex;
+//             justify-content: flex-end;
+//         }
+//     }
+    
+// }
+
+
+
 button{
+    border: none;
     text-decoration: none;
-    background-color: $black;
+    background-color: transparent;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: rem-calc(14);
+    padding: 7px;
+    
     transition: .25s;
     &:hover{
-        
+        // background-color: blue;
+        color: gray;
+        font-size: rem-calc(17);
 }
 }

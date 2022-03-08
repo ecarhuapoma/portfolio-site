@@ -97,6 +97,84 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/deploy\/projects\/cows\/cow-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1103567,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/cows\/cow-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/cows\/cow-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 2150196,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/cows\/cow-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/turtles\/turtle-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 162952,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/turtles\/turtle-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/turtles\/turtle-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 338679,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/turtles\/turtle-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/zoo\/zoo-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 963737,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/zoo\/zoo-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/zoo\/zoo-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1497995,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/zoo\/zoo-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dev\/content\/body.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -119,6 +197,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/motion.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/projects.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/projects.html",
       "oF" : 0
     },
     "\/dev\/content\/type-pub.kit" : {
@@ -192,6 +278,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dev\/js\/circleAnim-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/projects.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/projects-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
