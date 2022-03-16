@@ -38,7 +38,7 @@ button{
     background-color: transparent;
     color: black;
     font-family: 'Montserrat';
-    font-weight: 600;
+    font-weight: 400;
     font-size: rem-calc(14);
     padding: 7px;
     
@@ -47,5 +47,7 @@ button{
         // background-color: blue;
         color: gray;
         font-size: rem-calc(17);
+        margin-right: -60px;
+        
 }
 }

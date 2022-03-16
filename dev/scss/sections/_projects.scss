@@ -1,12 +1,8 @@
-#branding-section{
-    background-color:cornflowerblue;
-
-   
-
+#projects{
     display: grid;
     height: 100vh;
     width: 100vw;
-    // background-color: aquamarine;
+    background-color: aquamarine;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". projects .";
 
@@ -17,9 +13,8 @@
         grid-area: projects;
 
 
-        #brandingHeader{
+        header{
             padding-top: 24px;
-            padding-left: 50px;
             @include md{
                 padding-top: 36px;
             }
@@ -31,7 +26,7 @@
 
         }
 
-        #brandingGallery{
+        #gallery{
             ul{
                 display: grid;
                 grid-template-rows: repeat(5, 1fr);
@@ -99,7 +94,4 @@
             }
         }
     }
-
-
-    
-};
+}

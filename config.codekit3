@@ -17,6 +17,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/deploy\/brand-detail.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/brand-detail.html",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -28,6 +36,14 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/detail.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/detail.html",
+      "oF" : 0
     },
     "\/deploy\/img\/Asset 6.svg" : {
       "ft" : 2097152,
@@ -86,6 +102,28 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
+    "\/deploy\/js\/brand-detail-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/brand-detail-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/deploy\/js\/detail-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/detail-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -116,6 +154,45 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/projects\/cows\/cow-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/hamsters\/hamster1.jpg" : {
+      "ft" : 16384,
+      "iS" : 483204,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/hamsters\/hamster1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/hamsters\/hamster2.jpg" : {
+      "ft" : 16384,
+      "iS" : 527960,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/hamsters\/hamster2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/hamsters\/hamster3.jpg" : {
+      "ft" : 16384,
+      "iS" : 892100,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/hamsters\/hamster3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -175,6 +252,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/dev\/brand-detail.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/brand-detail.html",
+      "oF" : 2
+    },
     "\/dev\/content\/body.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -191,6 +276,22 @@
       "oAP" : "\/dev\/content\/branding.html",
       "oF" : 0
     },
+    "\/dev\/content\/detail-content-branding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/detail-content-branding.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/detail-content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/detail-content.html",
+      "oF" : 0
+    },
     "\/dev\/content\/motion.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -203,7 +304,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/content\/projects.html",
       "oF" : 0
     },
@@ -229,6 +330,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/web.html",
+      "oF" : 0
+    },
+    "\/dev\/detail.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/detail.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -271,6 +380,28 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
     },
+    "\/dev\/js\/brandingDetails.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/brand-detail-min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/brandProjects.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/brandProjects-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/circleAnim.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -279,6 +410,28 @@
       "oA" : 0,
       "oAP" : "\/dev\/js\/circleAnim-min.js",
       "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/detail.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/deploy\/js\/detail-min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/naviAnim.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/naviAnim-min.js",
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -472,6 +625,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_detail.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_detail.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_motion.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -495,6 +662,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_navi.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_projects.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_projects.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1407,7 +1588,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {

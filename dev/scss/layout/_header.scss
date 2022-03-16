@@ -13,8 +13,24 @@
         display: flex;
         align-self: center;
         justify-content: center;
-        background-color: aqua;
+        
+        button{
+            
+        }
+        // background-color: aqua;
         z-index: 1000;
+        margin-bottom:-40vh;
+        margin-left: 7vw;
+        margin-top: 2vh;
+
+        @include md{
+            margin-left: 4vw;
+            margin-top: 2vh;
+        }
+        @include lg{
+            margin-left: 2vw;
+            margin-top: 2vh;
+        }
     }
 
 
@@ -75,6 +91,8 @@
         //height move to 40% when menu
     }
 
-    .linedown {}
+    .linedown {
+        transform: scale(3);
+    }
 
 }

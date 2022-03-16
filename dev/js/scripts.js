@@ -1,31 +1,33 @@
 import { gsap } from "gsap";
 import { projects } from "./projects"
+import { brandProjects } from "./brandProjects";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+// import { naviOpen, naviClose } from "./naviAnim";
+import { naviTL } from "./naviAnim";
+import { settingBranding, importingBranding } from "./brandingDetails";
 gsap.registerPlugin(DrawSVGPlugin);
 
-// import { circleAni } from "./circleAnim";
+gsap.set(".PATHCLASS",{alpha:0});
+gsap.set(".stagger-btns",{alpha:0});
 
-const mainTL = new gsap.timeline();
 
-// window.addEventListener('load', function() {
 
-//     let mainImgArray = document.querySelectorAll('#gallery li');
+// gsap.set("#projects header",{autoAlpha:0});
+// gsap.set("#gallery",{autoAlpha:0})
 
-//     mainImgArray.forEach((heroImg, i) => { 
-//     heroImg.style.backgroundImage = "url(" + projects[i].images[0] + ")";
-//     });
+// window.addEventListener('click', function(){
+//     let changeTL = new gsap.timeline();
 
-//     let heroLinks = document.querySelectorAll("#gallery a");
+//     changeTL.to("#projects header",{autoAlpha:1});
+//     changeTL.to("#gallery",{autoAlpha:1,duration:2});
+// })
 
-//     heroLinks.forEach((link, i) => {
-//         link.addEventListener("click",()=>{
-//             localStorage.setItem("indexValue", i);
-//             link.href = "detail.html?=" + projects[i].title;
-//         });
-//     });
+//IJADOWIJDWAKLD
+// var projectButton = document.querySelectorAll(".sectionOpener");
+// projectButton.addEventListener('click')
 
-// });
 
+// window.addEventListener('click',naviOpen);
 
 window.addEventListener('load', function() {
 
@@ -55,42 +57,53 @@ window.addEventListener('load', function() {
     });
 })
 
+window.addEventListener('load', settingBranding);
+window.addEventListener('load', importingBranding);
 
+window.addEventListener('load', function(){
 
-// let navButtons = document.querySelectorAll(".nav-btns");
-
-// for (const button of navButtons){
-//     button.addEventListener("click", checkScrolling);
-//     button.addEventListener("click", openCloseMenu);
-// }
-
-// function checkScrolling(e) {
+        // console.log(projects[0].title);
     
-//     const indexValue = [].indexOf.call(navButtons, e.target)
-//     if (indexValue != -1) {
-//         scrollPage(indexValue);
-//     }
-// }
-
-
-
-
-
-
-// window.addEventListener('load', menuListener);
-window.addEventListener('click', imageRoll);
-// mainTL.set(".linedown",{drawSVG:"0%"});
-mainTL.set(".linedown",{autoAlpha:0});
-// }
-
-function imageRoll(){
-
-    // const rollIn = new gsap.timeline({paused:true});
-    // mainTL.set(".linedown",{autoAlpha:1});
-    mainTL.to(".linedown",{ drawSVG:"100%",duration:1,ease:"power3.inOut"});
+        // populate the hero images
+        let heroImgArray1 = document.querySelectorAll('#brandingGallery li');
+        // iterate over the heroImgArray and populate the background images
+        heroImgArray1.forEach((heroImg1, i) => {
     
+            // first pass in the array
+            // heroImg.style.backgroundImage = "url(./img/projects/turtles/turtle-1.jpg)";
+    
+            heroImg1.style.backgroundImage = "url(" + brandProjects[i].images[0] + ")";
+        });
+    
+        let heroLinks1 = document.querySelectorAll("#brandingGallery a");
+    
+        heroLinks1.forEach((link1, i) => {
+            // console.log("hello");
+    
+            link1.addEventListener("click", () =>{
+                console.log("clicked");
+                localStorage.setItem("indexValue", i);
+                link1.href = "detail.html?=" + brandProjects[i].title;
+            });
+        });
+});
 
-    // rollIn.to("#section-images",{alpha:0});
-    // rollIn.to("image-flex",{alpha:1,stagger:.2,duration:1,ease:"power3.out",x:0});
-    // console.log("fjuck");
+
+
+
+
+let canISeeMenu = false;
+var headerButton = document.querySelector(".nameCircle");
+headerButton.addEventListener('click', openCloseMenu);
+
+function openCloseMenu(){
+    if(canISeeMenu === false){
+        naviTL.play();
+        canISeeMenu = true;
+    }
+    else{
+        naviTL.reverse();
+        canISeeMenu = false;
+    }
 }
+//

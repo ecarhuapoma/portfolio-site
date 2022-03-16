@@ -425,7 +425,7 @@ button {
   background-color: transparent;
   color: black;
   font-family: "Montserrat";
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.875rem;
   padding: 7px;
   transition: 0.25s;
@@ -433,6 +433,7 @@ button {
 button:hover {
   color: gray;
   font-size: 1.0625rem;
+  margin-right: -60px;
 }
 
 /* =============
@@ -471,14 +472,32 @@ textarea {
   display: flex;
   align-self: center;
   justify-content: center;
-  background-color: aqua;
   z-index: 1000;
+  margin-bottom: -40vh;
+  margin-left: 7vw;
+  margin-top: 2vh;
+}
+@media (min-width: 768px) {
+  #header #button-container {
+    margin-left: 4vw;
+    margin-top: 2vh;
+  }
+}
+@media (min-width: 992px) {
+  #header #button-container {
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
 }
 #header svg {
   position: absolute;
   transform: scale(2);
   height: 25%;
 }
+#header .linedown {
+  transform: scale(3);
+}
+
 /* =============
     Footer
 ============= */
@@ -488,54 +507,82 @@ textarea {
 
 #branding-section {
   background-color: cornflowerblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-#branding-section #gallery ul {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 16px;
-  height: 90vh;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". projects .";
+}
+@media (min-width: 1200px) {
+  #branding-section {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#branding-section > div {
+  grid-area: projects;
+}
+#branding-section > div #brandingHeader {
+  padding-top: 24px;
+  padding-left: 50px;
 }
 @media (min-width: 768px) {
-  #branding-section #gallery ul {
-    height: 40vh;
+  #branding-section > div #brandingHeader {
+    padding-top: 36px;
+  }
+}
+#branding-section > div #brandingHeader h1 {
+  margin-bottom: 24px;
+}
+#branding-section > div #brandingGallery ul {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 16px;
+  height: 80vh;
+}
+@media (min-width: 768px) {
+  #branding-section > div #brandingGallery ul {
+    height: 50vh;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 }
 @media (min-width: 1200px) {
-  #branding-section #gallery ul {
-    height: 60vh;
+  #branding-section > div #brandingGallery ul {
+    height: 70vh;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     gap: 8px;
-    grid-template-areas: "p1 p1" "p1 p1" "p2 p3";
+    grid-template-areas: "p1 p2" "p3 p4";
   }
 }
-#branding-section #gallery ul li {
+#branding-section > div #brandingGallery ul li {
   background-size: cover;
   background-position: center;
 }
 @media (min-width: 1200px) {
-  #branding-section #gallery ul li:nth-child(1) {
+  #branding-section > div #brandingGallery ul li:nth-child(1) {
     grid-area: p1;
   }
 }
 @media (min-width: 1200px) {
-  #branding-section #gallery ul li:nth-child(2) {
+  #branding-section > div #brandingGallery ul li:nth-child(2) {
     grid-area: p2;
+    border: 1px solid red;
   }
 }
 @media (min-width: 1200px) {
-  #branding-section #gallery ul li:nth-child(2) {
+  #branding-section > div #brandingGallery ul li:nth-child(3) {
     grid-area: p3;
+    border: 1px solid red;
   }
 }
-#branding-section #gallery ul li a:link, #branding-section #gallery ul li a:visited {
+@media (min-width: 1200px) {
+  #branding-section > div #brandingGallery ul li:nth-child(4) {
+    grid-area: p4;
+    border: 1px solid red;
+  }
+}
+#branding-section > div #brandingGallery ul li a:link, #branding-section > div #brandingGallery ul li a:visited {
   height: 100%;
   width: 100%;
   display: inline-block;
@@ -575,4 +622,123 @@ textarea {
   align-items: center;
   width: 100vw;
   height: 100vh;
+}
+
+#projects {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  background-color: aquamarine;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". projects .";
+}
+@media (min-width: 1200px) {
+  #projects {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#projects > div {
+  grid-area: projects;
+}
+#projects > div header {
+  padding-top: 24px;
+}
+@media (min-width: 768px) {
+  #projects > div header {
+    padding-top: 36px;
+  }
+}
+#projects > div header h1 {
+  margin-bottom: 24px;
+}
+#projects > div #gallery ul {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 16px;
+  height: 80vh;
+}
+@media (min-width: 768px) {
+  #projects > div #gallery ul {
+    height: 50vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul {
+    height: 70vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    grid-template-areas: "p1 p2" "p3 p4";
+  }
+}
+#projects > div #gallery ul li {
+  background-size: cover;
+  background-position: center;
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(1) {
+    grid-area: p1;
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(2) {
+    grid-area: p2;
+    border: 1px solid red;
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(3) {
+    grid-area: p3;
+    border: 1px solid red;
+  }
+}
+@media (min-width: 1200px) {
+  #projects > div #gallery ul li:nth-child(4) {
+    grid-area: p4;
+    border: 1px solid red;
+  }
+}
+#projects > div #gallery ul li a:link, #projects > div #gallery ul li a:visited {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+#moreImg {
+  height: 50vh;
+  width: 100%;
+}
+
+#detail {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". detail .";
+  padding-top: 50px;
+  position: relative;
+}
+@media (min-width: 1200px) {
+  #detail {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+#detail > div {
+  grid-area: detail;
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+#detail > div button {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background-color: transparent;
+  color: coral;
+  font-weight: 600;
+  cursor: pointer;
+}
+#detail > div #detail-hero {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
 }
