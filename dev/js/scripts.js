@@ -4,7 +4,7 @@ import { brandProjects } from "./brandProjects";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 // import { naviOpen, naviClose } from "./naviAnim";
 import { naviTL } from "./naviAnim";
-import { settingBranding, importingBranding } from "./brandingDetails";
+// import { settingBranding, importingBranding } from "./brandingDetails";
 gsap.registerPlugin(DrawSVGPlugin);
 
 gsap.set(".PATHCLASS",{alpha:0});
@@ -57,8 +57,8 @@ window.addEventListener('load', function() {
     });
 })
 
-window.addEventListener('load', settingBranding);
-window.addEventListener('load', importingBranding);
+// window.addEventListener('load', settingBranding);
+// window.addEventListener('load', importingBranding);
 
 window.addEventListener('load', function(){
 

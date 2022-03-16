@@ -17,14 +17,6 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
-    "\/deploy\/brand-detail.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/brand-detail.html",
-      "oF" : 0
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -94,6 +86,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/AdmiredImpressiveJohndory-max-1mb.gif" : {
+      "ft" : 4194304,
+      "iS" : 900548,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/AdmiredImpressiveJohndory-max-1mb.gif",
+      "oF" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -161,6 +163,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/projects\/dalseg\/milesdavis.png" : {
+      "ft" : 32768,
+      "iS" : 2146804,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/dalseg\/milesdavis.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/projects\/hamsters\/hamster1.jpg" : {
       "ft" : 16384,
       "iS" : 483204,
@@ -193,6 +208,71 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/projects\/hamsters\/hamster3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/hamsters\/yuh.jpeg" : {
+      "ft" : 16384,
+      "iS" : 32318,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/hamsters\/yuh.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/lighters\/set 1.png" : {
+      "ft" : 32768,
+      "iS" : 6208441,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/lighters\/set 1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/pet-supply\/Asset 1@72x.png" : {
+      "ft" : 32768,
+      "iS" : 47036,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/pet-supply\/Asset 1@72x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/rise\/book-img.jpg" : {
+      "ft" : 16384,
+      "iS" : 405655,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/rise\/book-img.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/rise\/box-img.jpg" : {
+      "ft" : 16384,
+      "iS" : 720064,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/rise\/box-img.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -379,28 +459,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
-    },
-    "\/dev\/js\/brandingDetails.js" : {
-      "bF" : 4,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/js\/brand-detail-min.js",
-      "oF" : 3,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/brandProjects.js" : {
-      "bF" : 4,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/brandProjects-min.js",
-      "oF" : 1,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/dev\/js\/circleAnim.js" : {
       "bF" : 0,

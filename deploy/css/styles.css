@@ -433,7 +433,6 @@ button {
 button:hover {
   color: gray;
   font-size: 1.0625rem;
-  margin-right: -60px;
 }
 
 /* =============
@@ -477,9 +476,12 @@ textarea {
   margin-left: 7vw;
   margin-top: 2vh;
 }
+#header #button-container button {
+  width: 10px;
+}
 @media (min-width: 768px) {
   #header #button-container {
-    margin-left: 4vw;
+    padding-left: -100px;
     margin-top: 2vh;
   }
 }
@@ -628,7 +630,7 @@ textarea {
   display: grid;
   height: 100vh;
   width: 100vw;
-  background-color: aquamarine;
+  background-color: cornflowerblue;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". projects .";
 }
@@ -659,16 +661,16 @@ textarea {
 }
 @media (min-width: 768px) {
   #projects > div #gallery ul {
-    height: 50vh;
+    height: 80vh;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
 }
 @media (min-width: 1200px) {
   #projects > div #gallery ul {
-    height: 70vh;
+    height: 80vh;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 8px;
     grid-template-areas: "p1 p2" "p3 p4";
   }
@@ -685,19 +687,16 @@ textarea {
 @media (min-width: 1200px) {
   #projects > div #gallery ul li:nth-child(2) {
     grid-area: p2;
-    border: 1px solid red;
   }
 }
 @media (min-width: 1200px) {
   #projects > div #gallery ul li:nth-child(3) {
     grid-area: p3;
-    border: 1px solid red;
   }
 }
 @media (min-width: 1200px) {
   #projects > div #gallery ul li:nth-child(4) {
     grid-area: p4;
-    border: 1px solid red;
   }
 }
 #projects > div #gallery ul li a:link, #projects > div #gallery ul li a:visited {

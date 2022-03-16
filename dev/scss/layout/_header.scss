@@ -15,7 +15,7 @@
         justify-content: center;
         
         button{
-            
+            width: 10px;
         }
         // background-color: aqua;
         z-index: 1000;
@@ -24,7 +24,7 @@
         margin-top: 2vh;
 
         @include md{
-            margin-left: 4vw;
+            padding-left: -100px;
             margin-top: 2vh;
         }
         @include lg{

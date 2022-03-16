@@ -1,5 +1,5 @@
 import { projects } from "./projects"
-import { brandProjects } from "./brandProjects"
+// import { brandProjects } from "./brandProjects"
 
 
 
@@ -21,7 +21,7 @@ window.addEventListener('load', function() {
         let description = document.querySelector("#detail p");
         description.innerHTML = projects[localStorage.getItem("indexValue")].description;
 
-console.log("testinginging");
+        console.log("testinginging");
 
         let imgDetailsArray = this.document.querySelectorAll(".detail-imgs");
 
@@ -37,32 +37,32 @@ console.log("testinginging");
         
 });
 
-window.addEventListener('load', function() {
+// window.addEventListener('load', function() {
 
-    console.log(brandProjects[localStorage.getItem("indexValue")].images[1]);
-    console.log("yo")
-    //populate data
-    let title1 = document.querySelector("#brand-detail h1");
-    title1.innerHTML = brandProjects[localStorage.getItem("indexValue")].title;
+//     console.log(brandProjects[localStorage.getItem("indexValue")].images[1]);
+//     console.log("yo")
+//     //populate data
+//     let title1 = document.querySelector("#brand-detail h1");
+//     title1.innerHTML = brandProjects[localStorage.getItem("indexValue")].title;
 
-    let description1 = document.querySelector("#brand-detail p");
-    description1.innerHTML = brandProjects[localStorage.getItem("indexValue")].description;
+//     let description1 = document.querySelector("#brand-detail p");
+//     description1.innerHTML = brandProjects[localStorage.getItem("indexValue")].description;
 
 
-console.log("brand image details imported");
-    let imgDetailsArray1 = this.document.querySelectorAll(".brand-detail-imgs");
+// console.log("brand image details imported");
+//     let imgDetailsArray1 = this.document.querySelectorAll(".brand-detail-imgs");
 
-    imgDetailsArray1.forEach((image, i) => {
-        imgDetailsArray1[i].style.backgroundImage = "url(" + brandProjects[localStorage.getItem("indexValue")].images[i] + ")";
-    });
+//     imgDetailsArray1.forEach((image, i) => {
+//         imgDetailsArray1[i].style.backgroundImage = "url(" + brandProjects[localStorage.getItem("indexValue")].images[i] + ")";
+//     });
 
-    // let heroImg = document.querySelector("#detail-hero");
-    // heroImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[1] + ")";
+//     // let heroImg = document.querySelector("#detail-hero");
+//     // heroImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[1] + ")";
 
-    // let moreImg = document.querySelector("#moreImg");
-    // moreImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[0] + ")";
+//     // let moreImg = document.querySelector("#moreImg");
+//     // moreImg.style.backgroundImage = "url(" + projects[localStorage.getItem("indexValue")].images[0] + ")";
     
-});
+// });
 
 
 
