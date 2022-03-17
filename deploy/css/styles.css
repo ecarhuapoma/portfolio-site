@@ -491,224 +491,238 @@ textarea {
 /* =============
     Footer
 ============= */
-#navi {
-  display: none;
-}
-
-#branding-section {
-  background-color: forestgreen;
-}
-#branding-section > div {
-  display: grid;
-  grid-template-columns: 30px 50% 50% 30px;
-  grid-template-areas: "h h . ." ". b i .";
-  padding-bottom: 30px;
-  width: 100vw;
+#welcome_section {
   height: 100vh;
-}
-#branding-section > div header {
-  padding: 50px;
-  height: 0px;
-  font-size: 3.75rem;
-  grid-area: h;
-}
-#branding-section > div img {
-  grid-area: i;
-  height: 100%;
-}
-#branding-section > div b {
-  grid-area: b;
-  font-size: 1.25rem;
-}
-
-#type-pub-section {
-  background-color: greenyellow;
-  display: grid;
-  height: 100vh;
-  width: 100vw;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: "h h ." ". re .";
-}
-#type-pub-section h1 {
-  grid-area: h;
-  padding-top: 24px;
-  padding: 30px;
-  font-size: 3.75rem;
-}
-@media (min-width: 768px) {
-  #type-pub-section h1 {
-    padding-top: 36px;
-  }
-}
-#type-pub-section img {
-  grid-area: re;
-  align-self: center;
-  justify-self: center;
-}
-
-#motion-section {
-  background-color: darkkhaki;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-#web-section {
-  background-color: cadetblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-#visual-section {
-  background-color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-}
-
-#projects {
-  display: grid;
-  height: 100vh;
-  width: 100vw;
-  background-color: white;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". projects .";
-}
-@media (min-width: 1200px) {
-  #projects {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-#projects > div {
-  grid-area: projects;
-}
-#projects > div header {
-  padding-top: 24px;
-}
-@media (min-width: 768px) {
-  #projects > div header {
-    padding-top: 36px;
-  }
-}
-#projects > div header h1 {
-  margin-bottom: 24px;
-}
-#projects > div #gallery ul {
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  gap: 16px;
-  height: 80vh;
-}
-#projects > div #gallery ul h1 {
-  display: none;
-  font-size: 1.875rem;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-#projects > div #gallery ul #rises {
-  font-size: 1.875rem;
-}
-@media (min-width: 768px) {
-  #projects > div #gallery ul {
-    height: 80vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1200px) {
-  #projects > div #gallery ul {
-    height: 80vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 8px;
-    grid-template-areas: "p1 p2" "p3 p4";
-  }
-}
-#projects > div #gallery ul li {
+  background-image: url("/deploy/img/ethan-welcome.jpg");
+  background-color: #cccccc;
+  background-position: bottom right;
   background-size: cover;
-  background-position: center;
-}
-@media (min-width: 1200px) {
-  #projects > div #gallery ul li:nth-child(1) {
-    grid-area: p1;
-  }
-}
-@media (min-width: 1200px) {
-  #projects > div #gallery ul li:nth-child(2) {
-    grid-area: p2;
-  }
-}
-@media (min-width: 1200px) {
-  #projects > div #gallery ul li:nth-child(3) {
-    grid-area: p3;
-  }
-}
-@media (min-width: 1200px) {
-  #projects > div #gallery ul li:nth-child(4) {
-    grid-area: p4;
-  }
-}
-#projects > div #gallery ul li:hover {
-  transform: scale(1.02);
-  box-shadow: 0px 0px 20px -9px #000000;
-  transition: 0.25s;
-}
-#projects > div #gallery ul li:hover h1 {
-  display: flex;
-  background-color: magenta;
-  color: white;
-  transition: 0.5;
-}
-#projects > div #gallery ul li a:link, #projects > div #gallery ul li a:visited {
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-}
-
-#moreImg {
-  height: 50vh;
-  width: 100%;
-}
-
-#detail {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". detail .";
-  padding-top: 50px;
   position: relative;
 }
-@media (min-width: 1200px) {
-  #detail {
-    grid-template-columns: auto 1200px auto;
+#welcome_section div {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#welcome_section div h1 {
+  display: flex;
+  font-size: 10vw;
+  line-height: 80%;
+}
+#welcome_section div b {
+  margin-top: 30px;
+}
+
+#dalsegno_section {
+  height: 100vh;
+  background-color: beige;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 30px 40% 40% 30px;
+  grid-template-areas: ". bod ris2 ris" ". bod ris2 ris";
+}
+#dalsegno_section #segnolayout {
+  grid-area: bod;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#dalsegno_section #segnolayout h1 {
+  display: flex;
+  font-size: 7vw;
+  line-height: 80%;
+}
+#dalsegno_section #segnolayout b {
+  margin-top: 30px;
+}
+#dalsegno_section #dalsegno-images {
+  margin-left: -600px;
+  grid-area: ris;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transform: scale(2);
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images {
+    transform: scale(2);
   }
 }
-#detail > div {
-  grid-area: detail;
+#dalsegno_section #dalsegno-images #trumpet {
+  height: 70%;
+  transform: rotate(60deg);
+  left: 300px;
+  margin-top: -40px;
+  position: absolute;
+  z-index: 1000;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images #trumpet {
+    left: 100px;
+  }
+}
+#dalsegno_section #dalsegno-images #redflower {
+  height: 50%;
+  transform: rotate(20deg);
+  left: 250px;
+  position: absolute;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images #redflower {
+    left: 200px;
+  }
+}
+@media (min-width: 992px) {
+  #dalsegno_section #dalsegno-images #redflower {
+    left: 200px;
+  }
+}
+#dalsegno_section #dalsegno-images #pinkflower {
+  height: 45%;
+  margin-right: -300px;
+  margin-bottom: -100px;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images #pinkflower {
+    margin-right: -50px;
+    margin-bottom: -300px;
+  }
+}
+#dalsegno_section #buttonContainerSegno {
+  grid-area: ris2;
+  z-index: 2000;
   display: grid;
   grid-template-columns: 50% auto;
+  grid-template-areas: ". ." ". button" ". .";
+  height: 100%;
+  width: 100%;
 }
-#detail > div button {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  background-color: transparent;
-  color: coral;
-  font-weight: 600;
-  cursor: pointer;
-}
-#detail > div #detail-hero {
-  background-size: cover;
+#dalsegno_section #buttonContainerSegno button {
+  grid-area: button;
+  background-image: url("/deploy/img/milesdavis.png");
   background-position: center;
-  height: 50vh;
+  background-size: cover;
+  position: relative;
+  margin-right: -200px;
+  margin-left: -40px;
+}
+
+#petsupply_section {
+  background-color: orange;
+  height: 100vh;
+  background-image: url("/deploy/img/paws.png");
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 30px 40% 40% 30px;
+  grid-template-areas: "pet pet2 bod ." "pet pet2 bod .";
+}
+#petsupply_section #petlayout {
+  grid-area: bod;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#petsupply_section #petlayout h1 {
+  display: flex;
+  font-size: 7vw;
+  line-height: 80%;
+}
+#petsupply_section #petlayout b {
+  margin-top: 30px;
+}
+#petsupply_section #buttonContainerPet {
+  grid-area: pet2;
+  z-index: 2000;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: ". ." ". button" ". .";
+  height: 100%;
+  width: 100%;
+}
+#petsupply_section #buttonContainerPet button {
+  grid-area: button;
+  background-image: url("/deploy/img/petsign.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-right: 40px;
+  margin-left: -200px;
+}
+#petsupply_section #buttonContainerPet button:hover {
+  color: black;
+}
+#petsupply_section .petSVG {
+  grid-area: ris;
+  padding-top: 100px;
+  margin-left: -70px;
+  height: 70%;
+  z-index: 1;
+}
+#rise_section {
+  height: 100vh;
+  background-color: beige;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 30px 40% 40% 30px;
+  grid-template-areas: ". bod bod2 ris" ". bod bod2 ris";
+}
+#rise_section #riselayout {
+  grid-area: bod;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#rise_section #riselayout h1 {
+  display: flex;
+  font-size: 7vw;
+  line-height: 80%;
+}
+#rise_section #riselayout b {
+  margin-top: 30px;
+}
+#rise_section #buttonContainer {
+  grid-area: bod2;
+  z-index: 2000;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: ". ." ". button" ". .";
+  height: 100%;
+  width: 100%;
+}
+#rise_section #buttonContainer button {
+  grid-area: button;
+  background-image: url("/deploy/img/risebox.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-right: -150px;
+  margin-left: 30px;
+}
+#rise_section .riseSVG {
+  grid-area: ris;
+  padding-top: 100px;
+  margin-left: -600px;
+  height: 70%;
+  z-index: 1;
 }

@@ -666,7 +666,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_branding.scss" : {
+    "\/dev\/scss\/sections\/_dalsegno.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -674,35 +674,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_branding.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_detail.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_detail.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_motion.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_motion.css",
+      "oAP" : "\/dev\/scss\/sections\/_dalsegno.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -722,7 +694,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_projects.scss" : {
+    "\/dev\/scss\/sections\/_petsupply.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -730,13 +702,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_projects.css",
+      "oAP" : "\/dev\/scss\/sections\/_petsupply.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_type-pub.scss" : {
+    "\/dev\/scss\/sections\/_rise.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -744,13 +716,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_type-pub.css",
+      "oAP" : "\/dev\/scss\/sections\/_rise.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_visual.scss" : {
+    "\/dev\/scss\/sections\/_welcome.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -758,21 +730,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_visual.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_web.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_web.css",
+      "oAP" : "\/dev\/scss\/sections\/_welcome.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
