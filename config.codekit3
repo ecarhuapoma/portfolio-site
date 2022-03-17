@@ -339,7 +339,23 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/brand-detail.html",
+      "oAP" : "\/deploy\/brand-detail.html",
+      "oF" : 2
+    },
+    "\/dev\/content\/body.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/body.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/branding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/branding.html",
       "oF" : 0
     },
     "\/dev\/content\/dalsegno.kit" : {
@@ -350,12 +366,20 @@
       "oAP" : "\/dev\/content\/dalsegno.html",
       "oF" : 0
     },
-    "\/dev\/content\/petsupply.html" : {
+    "\/dev\/content\/detail-content.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/detail-content.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/motion.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/petsupply.html",
+      "oAP" : "\/dev\/content\/motion.html",
       "oF" : 0
     },
     "\/dev\/content\/petsupply.kit" : {
@@ -366,12 +390,12 @@
       "oAP" : "\/dev\/content\/petsupply.html",
       "oF" : 0
     },
-    "\/dev\/content\/rise.html" : {
+    "\/dev\/content\/projects.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/content\/rise.html",
+      "oAP" : "\/dev\/content\/projects.html",
       "oF" : 0
     },
     "\/dev\/content\/rise.kit" : {
@@ -380,6 +404,30 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/rise.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/type-pub.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/type-pub.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/visual.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/visual.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/web.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/web.html",
       "oF" : 0
     },
     "\/dev\/content\/welcome.kit" : {
@@ -426,7 +474,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/navi.html",
       "oF" : 0
     },
@@ -458,13 +506,13 @@
       "tS" : 0
     },
     "\/dev\/js\/detail.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/detail-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/detail-min.js",
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
@@ -475,7 +523,7 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/naviAnim-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -486,7 +534,7 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/pageScroll-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
@@ -666,7 +714,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_dalsegno.scss" : {
+    "\/dev\/scss\/sections\/_branding.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -674,7 +722,35 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_dalsegno.css",
+      "oAP" : "\/dev\/scss\/sections\/_branding.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_detail.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_detail.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_motion.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_motion.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -694,7 +770,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_petsupply.scss" : {
+    "\/dev\/scss\/sections\/_projects.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -702,13 +778,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_petsupply.css",
+      "oAP" : "\/dev\/scss\/sections\/_projects.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_rise.scss" : {
+    "\/dev\/scss\/sections\/_type-pub.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -716,13 +792,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_rise.css",
+      "oAP" : "\/dev\/scss\/sections\/_type-pub.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_welcome.scss" : {
+    "\/dev\/scss\/sections\/_visual.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -730,7 +806,21 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_welcome.css",
+      "oAP" : "\/dev\/scss\/sections\/_visual.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_web.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_web.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1601,7 +1691,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
