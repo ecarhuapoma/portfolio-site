@@ -339,71 +339,55 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/brand-detail.html",
-      "oF" : 2
-    },
-    "\/dev\/content\/body.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/body.html",
+      "oAP" : "\/dev\/brand-detail.html",
       "oF" : 0
     },
-    "\/dev\/content\/branding.kit" : {
+    "\/dev\/content\/dalsegno.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/branding.html",
+      "oAP" : "\/dev\/content\/dalsegno.html",
       "oF" : 0
     },
-    "\/dev\/content\/detail-content.kit" : {
+    "\/dev\/content\/petsupply.html" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/detail-content.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/petsupply.html",
       "oF" : 0
     },
-    "\/dev\/content\/motion.kit" : {
+    "\/dev\/content\/petsupply.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/motion.html",
+      "oAP" : "\/dev\/content\/petsupply.html",
       "oF" : 0
     },
-    "\/dev\/content\/projects.kit" : {
+    "\/dev\/content\/rise.html" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/projects.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/rise.html",
       "oF" : 0
     },
-    "\/dev\/content\/type-pub.kit" : {
+    "\/dev\/content\/rise.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/type-pub.html",
+      "oAP" : "\/dev\/content\/rise.html",
       "oF" : 0
     },
-    "\/dev\/content\/visual.kit" : {
+    "\/dev\/content\/welcome.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/visual.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/web.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/web.html",
+      "oAP" : "\/dev\/content\/welcome.html",
       "oF" : 0
     },
     "\/dev\/detail.html" : {
@@ -474,13 +458,13 @@
       "tS" : 0
     },
     "\/dev\/js\/detail.js" : {
-      "bF" : 4,
+      "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/deploy\/js\/detail-min.js",
-      "oF" : 3,
+      "oAP" : "\/dev\/js\/detail-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -491,7 +475,7 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/naviAnim-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -502,7 +486,7 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/pageScroll-min.js",
-      "oF" : 1,
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -1659,7 +1643,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 0,
+        "active" : 1,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
