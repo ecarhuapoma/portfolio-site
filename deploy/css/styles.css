@@ -442,9 +442,157 @@ textarea {
 /* =============
     Navigation
 ============= */
+#nav-container ul li > button {
+  text-decoration: none;
+  background-color: transparent;
+}
+#nav-container ul li > button:hover {
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  #nav-container ul li > button:hover {
+    width: 32.5vw;
+  }
+}
+@media (min-width: 992px) {
+  #nav-container ul li > button:hover {
+    width: 23.27vw;
+  }
+}
+
 /* =============
-    Header
+    Navigation
 ============= */
+/* =============
+    Navigation
+============= */
+#navigation-header #navigation {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". burgie ." ". headline .";
+  width: 100vw;
+}
+#navigation-header #navigation #burger_container {
+  grid-area: burgie;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1001;
+}
+#navigation-header #navigation #burger_container > svg {
+  width: 0;
+  height: 7%;
+  position: absolute;
+  z-index: 200;
+}
+@media (min-width: 576px) {
+  #navigation-header #navigation #burger_container > svg {
+    height: 16%;
+    width: 20%;
+  }
+}
+#navigation-header #navigation #nav-container {
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  grid-area: burgie;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-end;
+}
+#navigation-header #navigation #nav-container button {
+  background-color: transparent;
+  color: white;
+  font-size: 1.875rem;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  #navigation-header #navigation #nav-container {
+    color: #fff;
+    grid-area: burgie;
+  }
+}
+#navigation-header #navigation #nav-container > ul {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #navigation-header #navigation #nav-container > ul {
+    width: 35vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 2vw;
+    float: right;
+    background-color: #3194bf;
+  }
+}
+@media (min-width: 1200px) {
+  #navigation-header #navigation #nav-container > ul {
+    width: 25vw;
+  }
+}
+@media (min-width: 768px) {
+  #navigation-header #navigation #nav-container {
+    grid-area: burgie;
+    display: block !important;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+}
+#navigation-header #navigation #title_banner {
+  grid-area: headline;
+  text-align: center;
+}
+#navigation-header #navigation #title_banner > h1 {
+  font-weight: 300;
+  font-size: 5rem;
+}
+#navigation-header #navigation #title_banner span {
+  font-weight: 700;
+  color: bisque;
+}
+#navigation-header #navigation #title_banner > form {
+  padding-bottom: 40px;
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  #navigation-header #navigation {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". burger ." ". nav .";
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  #navigation-header #navigation {
+    grid-template-columns: 100%;
+    grid-template-areas: "nav";
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  #navigation-header #navigation #burger_container {
+    margin-top: -260px;
+  }
+  #navigation-header #navigation #burger_container > svg {
+    grid-area: nav;
+    height: 20%;
+    width: 20%;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) and (min-width: 768px) {
+  #navigation-header #navigation #burger_container > svg {
+    height: 15%;
+    width: 25%;
+  }
+}
 /* =============
     Footer
 ============= */
@@ -673,14 +821,22 @@ textarea {
   height: 100%;
   width: 100%;
 }
-#dalsegno_section #buttonContainerSegno button {
+#dalsegno_section #buttonContainerSegno li {
   grid-area: button;
-  background-image: url("/deploy/img/milesdavis.png");
+  background-image: url("../img/milesdavis.png");
   background-position: center;
   background-size: cover;
   position: relative;
+  height: 400px;
   margin-right: -200px;
   margin-left: -40px;
+  z-index: 1;
+}
+#dalsegno_section #buttonContainerSegno li a {
+  z-index: 4;
+  height: 200px;
+  width: 100px;
+  color: transparent;
 }
 
 #body {
