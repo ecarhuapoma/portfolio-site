@@ -4,13 +4,15 @@
 
 
 body{
-    font-family: 'Port Lligat Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     color: $black;
+    font-weight:100;
     p{
     margin: 0;
     padding: 0;}
 
 h1,h2,h3,h4{
+    font-weight:900;
     margin: 0;
     padding: 0;
 }

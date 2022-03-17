@@ -388,14 +388,16 @@ ul li {
     Typography
 ============= */
 body {
-  font-family: "Port Lligat Slab", serif;
+  font-family: "Montserrat", sans-serif;
   color: #000;
+  font-weight: 100;
 }
 body p {
   margin: 0;
   padding: 0;
 }
 body h1, body h2, body h3, body h4 {
+  font-weight: 900;
   margin: 0;
   padding: 0;
 }
@@ -405,7 +407,8 @@ body h1, body h2, body h3, body h4 {
 ============= */
 button {
   text-decoration: none;
-  background-color: #000;
+  color: black;
+  background-color: #fff;
   transition: 0.25s;
 }
 /* =============
@@ -435,6 +438,200 @@ textarea {
 /* =============
     Footer
 ============= */
+#welcome_section {
+  height: 100vh;
+  background-image: url("/deploy/img/ethan-welcome.jpg");
+  background-color: #cccccc;
+  background-position: bottom right;
+  background-size: cover;
+  position: relative;
+}
+#welcome_section div {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#welcome_section div h1 {
+  display: flex;
+  font-size: 10vw;
+  line-height: 80%;
+}
+#welcome_section div b {
+  margin-top: 30px;
+}
+
+#rise_section {
+  height: 100vh;
+  background-color: beige;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 30px 40% 40% 30px;
+  grid-template-areas: ". bod bod2 ris" ". bod bod2 ris";
+}
+#rise_section #riselayout {
+  grid-area: bod;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#rise_section #riselayout h1 {
+  display: flex;
+  font-size: 7vw;
+  line-height: 80%;
+}
+#rise_section #riselayout b {
+  margin-top: 30px;
+}
+#rise_section #buttonContainer {
+  grid-area: bod2;
+  z-index: 2000;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: ". ." ". button" ". .";
+  height: 100%;
+  width: 100%;
+}
+#rise_section #buttonContainer button {
+  grid-area: button;
+  background-image: url("/deploy/img/risebox.jpg");
+  background-position: bottom right;
+  background-size: cover;
+  position: relative;
+  margin-right: -150px;
+  margin-left: 30px;
+}
+#rise_section .riseSVG {
+  grid-area: ris;
+  padding-top: 100px;
+  margin-left: -600px;
+  height: 70%;
+  z-index: 1;
+}
+#petsupply_section {
+  background-color: orange;
+  height: 100vh;
+  background-image: url("/deploy/img/paws.png");
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 30px 40% 40% 30px;
+  grid-template-areas: "pet pet bod ." "pet pet bod .";
+}
+#petsupply_section #petlayout {
+  grid-area: bod;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#petsupply_section #petlayout h1 {
+  display: flex;
+  font-size: 7vw;
+  line-height: 80%;
+}
+#petsupply_section #petlayout b {
+  margin-top: 30px;
+}
+#petsupply_section .petSVG {
+  grid-area: ris;
+  padding-top: 100px;
+  margin-left: -70px;
+  height: 70%;
+  z-index: 1;
+}
+#dalsegno_section {
+  height: 100vh;
+  background-color: beige;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 30px 40% 40% 30px;
+  grid-template-areas: ". bod ris ris" ". bod ris ris";
+}
+#dalsegno_section #segnolayout {
+  grid-area: bod;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 100vh;
+  width: 50vw;
+  padding-left: 50px;
+}
+#dalsegno_section #segnolayout h1 {
+  display: flex;
+  font-size: 7vw;
+  line-height: 80%;
+}
+#dalsegno_section #segnolayout b {
+  margin-top: 30px;
+}
+#dalsegno_section #dalsegno-images {
+  grid-area: ris;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images {
+    transform: scale(2);
+  }
+}
+#dalsegno_section #dalsegno-images #trumpet {
+  height: 70%;
+  transform: rotate(60deg);
+  left: 300px;
+  margin-top: -40px;
+  position: absolute;
+  z-index: 1000;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images #trumpet {
+    left: 100px;
+  }
+}
+#dalsegno_section #dalsegno-images #redflower {
+  height: 50%;
+  transform: rotate(20deg);
+  left: 250px;
+  position: absolute;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images #redflower {
+    left: 200px;
+  }
+}
+@media (min-width: 992px) {
+  #dalsegno_section #dalsegno-images #redflower {
+    left: 200px;
+  }
+}
+#dalsegno_section #dalsegno-images #pinkflower {
+  height: 45%;
+  margin-right: -300px;
+  margin-bottom: -100px;
+}
+@media (min-width: 768px) {
+  #dalsegno_section #dalsegno-images #pinkflower {
+    margin-right: -50px;
+    margin-bottom: -300px;
+  }
+}
+
 #body {
   display: flex;
   text-align: center;
@@ -443,4 +640,5 @@ textarea {
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 100px;
+  overflow-x: hidden;
 }
