@@ -65,11 +65,37 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/milesdavis.png" : {
+      "ft" : 32768,
+      "iS" : 2146804,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/milesdavis.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/paws.png" : {
       "ft" : 32768,
       "iS" : 68027,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/paws.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/petsign.png" : {
+      "ft" : 32768,
+      "iS" : 6646012,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/petsign.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -157,12 +183,28 @@
       "oAP" : "\/dev\/content\/dalsegno.html",
       "oF" : 0
     },
+    "\/dev\/content\/petsupply.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/petsupply.html",
+      "oF" : 0
+    },
     "\/dev\/content\/petsupply.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/petsupply.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/rise.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/rise.html",
       "oF" : 0
     },
     "\/dev\/content\/rise.kit" : {

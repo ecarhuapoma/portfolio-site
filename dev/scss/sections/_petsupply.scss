@@ -8,8 +8,8 @@
         
         display: grid;
         grid-template-columns: 30px 40% 40% 30px;
-        grid-template-areas: "pet pet bod ."
-        "pet pet bod .";
+        grid-template-areas: "pet pet2 bod ."
+        "pet pet2 bod .";
     
         #petlayout{
         
@@ -34,6 +34,33 @@
             }
     
             
+        }
+
+        #buttonContainerPet{
+            grid-area: pet2;
+            
+            z-index: 2000;
+            display: grid;
+            grid-template-columns: 50% auto;
+            grid-template-areas: ". ."
+            ". button"
+            ". .";
+            button{
+                grid-area: button;
+                background-image: url("/deploy/img/petsign.png");
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                margin-right: 40px;
+                margin-left: -200px;
+
+                &:hover{
+                    color: black;
+                    
+                }
+            }
+            height: 100%;
+            width: 100%;
         }
         .petSVG{
                 // display: none;

@@ -407,10 +407,20 @@ body h1, body h2, body h3, body h4 {
 ============= */
 button {
   text-decoration: none;
-  color: black;
+  border: none;
+  color: transparent;
   background-color: #fff;
   transition: 0.25s;
 }
+button:hover {
+  color: black;
+  font-size: 1.875rem;
+  transform: scale(1.02);
+  transform-origin: 50% 50%;
+  box-shadow: 0px 0px 20px -9px #000000;
+  transition: 0.25s;
+}
+
 /* =============
     Forms
 ============= */
@@ -503,7 +513,7 @@ textarea {
 #rise_section #buttonContainer button {
   grid-area: button;
   background-image: url("/deploy/img/risebox.jpg");
-  background-position: bottom right;
+  background-position: center;
   background-size: cover;
   position: relative;
   margin-right: -150px;
@@ -523,7 +533,7 @@ textarea {
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: 30px 40% 40% 30px;
-  grid-template-areas: "pet pet bod ." "pet pet bod .";
+  grid-template-areas: "pet pet2 bod ." "pet pet2 bod .";
 }
 #petsupply_section #petlayout {
   grid-area: bod;
@@ -544,6 +554,27 @@ textarea {
 #petsupply_section #petlayout b {
   margin-top: 30px;
 }
+#petsupply_section #buttonContainerPet {
+  grid-area: pet2;
+  z-index: 2000;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: ". ." ". button" ". .";
+  height: 100%;
+  width: 100%;
+}
+#petsupply_section #buttonContainerPet button {
+  grid-area: button;
+  background-image: url("/deploy/img/petsign.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-right: 40px;
+  margin-left: -200px;
+}
+#petsupply_section #buttonContainerPet button:hover {
+  color: black;
+}
 #petsupply_section .petSVG {
   grid-area: ris;
   padding-top: 100px;
@@ -558,7 +589,7 @@ textarea {
   overflow-y: hidden;
   display: grid;
   grid-template-columns: 30px 40% 40% 30px;
-  grid-template-areas: ". bod ris ris" ". bod ris ris";
+  grid-template-areas: ". bod ris2 ris" ". bod ris2 ris";
 }
 #dalsegno_section #segnolayout {
   grid-area: bod;
@@ -580,11 +611,13 @@ textarea {
   margin-top: 30px;
 }
 #dalsegno_section #dalsegno-images {
+  margin-left: -600px;
   grid-area: ris;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  transform: scale(2);
 }
 @media (min-width: 768px) {
   #dalsegno_section #dalsegno-images {
@@ -631,6 +664,24 @@ textarea {
     margin-bottom: -300px;
   }
 }
+#dalsegno_section #buttonContainerSegno {
+  grid-area: ris2;
+  z-index: 2000;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: ". ." ". button" ". .";
+  height: 100%;
+  width: 100%;
+}
+#dalsegno_section #buttonContainerSegno button {
+  grid-area: button;
+  background-image: url("/deploy/img/milesdavis.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-right: -200px;
+  margin-left: -40px;
+}
 
 #body {
   display: flex;
@@ -640,5 +691,4 @@ textarea {
   padding-left: 150px;
   padding-right: 150px;
   padding-bottom: 100px;
-  overflow-x: hidden;
 }
