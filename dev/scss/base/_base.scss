@@ -42,19 +42,19 @@ body {
     //
   }
 
-#big-container{
-    overflow: scroll;
-    height: 100vh;
-//   scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
+// #big-container{
+//     overflow: scroll;
+//     height: 100vh;
+// //   scroll-snap-points-y: repeat(100vh);
+//   scroll-snap-type: y mandatory;
+// }
 
 
-.container{
-    height: 100vh;
-    scroll-snap-align: start;
-    position: relative;
-}
+// .container{
+//     height: 100vh;
+//     scroll-snap-align: start;
+//     position: relative;
+// }
 // body{
 //     scroll-snap-type: y mandatory;
 //     overflow-y: scroll;

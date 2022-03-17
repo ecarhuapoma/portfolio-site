@@ -1,9 +1,10 @@
 import { gsap } from "gsap";
 import { projects } from "./projects"
-import { brandProjects } from "./brandProjects";
+// import { brandProjects } from "./brandProjects";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 // import { naviOpen, naviClose } from "./naviAnim";
 import { naviTL } from "./naviAnim";
+import { scrollPage } from "./pageScroll";
 // import { settingBranding, importingBranding } from "./brandingDetails";
 gsap.registerPlugin(DrawSVGPlugin);
 
@@ -44,6 +45,13 @@ window.addEventListener('load', function() {
         heroImg.style.backgroundImage = "url(" + projects[i].images[0] + ")";
     });
 
+
+    let subtitleArray = document.querySelectorAll("#gallery h1");
+    
+    subtitleArray.forEach((subText,i) =>{
+        subText.textContent = " " + projects[i].title +  " ";
+    })
+
     let heroLinks = document.querySelectorAll("#gallery a");
 
     heroLinks.forEach((link, i) => {
@@ -57,36 +65,53 @@ window.addEventListener('load', function() {
     });
 })
 
+
+let navButtons = document.querySelectorAll(".nav-btns");
+
+for (const button of navButtons){
+    button.addEventListener("click", checkScrolling);
+}
+
+function checkScrolling(e) {
+    
+    const indexValue = [].indexOf.call(navButtons, e.target)
+    if (indexValue != -1) {
+        scrollPage(indexValue);
+        console.log(scrollPage(indexValue));
+    }
+}
+
+
 // window.addEventListener('load', settingBranding);
 // window.addEventListener('load', importingBranding);
 
-window.addEventListener('load', function(){
+// window.addEventListener('load', function(){
 
-        // console.log(projects[0].title);
+//         // console.log(projects[0].title);
     
-        // populate the hero images
-        let heroImgArray1 = document.querySelectorAll('#brandingGallery li');
-        // iterate over the heroImgArray and populate the background images
-        heroImgArray1.forEach((heroImg1, i) => {
+//         // populate the hero images
+//         let heroImgArray1 = document.querySelectorAll('#brandingGallery li');
+//         // iterate over the heroImgArray and populate the background images
+//         heroImgArray1.forEach((heroImg1, i) => {
     
-            // first pass in the array
-            // heroImg.style.backgroundImage = "url(./img/projects/turtles/turtle-1.jpg)";
+//             // first pass in the array
+//             // heroImg.style.backgroundImage = "url(./img/projects/turtles/turtle-1.jpg)";
     
-            heroImg1.style.backgroundImage = "url(" + brandProjects[i].images[0] + ")";
-        });
+//             heroImg1.style.backgroundImage = "url(" + brandProjects[i].images[0] + ")";
+//         });
     
-        let heroLinks1 = document.querySelectorAll("#brandingGallery a");
+//         let heroLinks1 = document.querySelectorAll("#brandingGallery a");
     
-        heroLinks1.forEach((link1, i) => {
-            // console.log("hello");
+//         heroLinks1.forEach((link1, i) => {
+//             // console.log("hello");
     
-            link1.addEventListener("click", () =>{
-                console.log("clicked");
-                localStorage.setItem("indexValue", i);
-                link1.href = "detail.html?=" + brandProjects[i].title;
-            });
-        });
-});
+//             link1.addEventListener("click", () =>{
+//                 console.log("clicked");
+//                 localStorage.setItem("indexValue", i);
+//                 link1.href = "detail.html?=" + brandProjects[i].title;
+//             });
+//         });
+// });
 
 
 

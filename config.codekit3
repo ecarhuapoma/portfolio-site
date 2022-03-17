@@ -104,17 +104,6 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/deploy\/js\/brand-detail-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/deploy\/js\/brand-detail-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
     "\/deploy\/js\/detail-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -228,11 +217,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/projects\/lighters\/set 1.png" : {
+    "\/deploy\/projects\/lighters\/set-1.png" : {
       "ft" : 32768,
       "iS" : 6208441,
       "oA" : 0,
-      "oAP" : "\/deploy\/projects\/lighters\/set 1.png",
+      "oAP" : "\/deploy\/projects\/lighters\/set-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -241,15 +230,28 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/projects\/pet-supply\/Asset 1@72x.png" : {
+    "\/deploy\/projects\/pet-supply\/pet-logo.png" : {
       "ft" : 32768,
       "iS" : 47036,
       "oA" : 0,
-      "oAP" : "\/deploy\/projects\/pet-supply\/Asset 1@72x.png",
+      "oAP" : "\/deploy\/projects\/pet-supply\/pet-logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/projects\/resume\/ecarhuapoma-resume.jpg" : {
+      "ft" : 16384,
+      "iS" : 98586,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/projects\/resume\/ecarhuapoma-resume.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -356,14 +358,6 @@
       "oAP" : "\/dev\/content\/branding.html",
       "oF" : 0
     },
-    "\/dev\/content\/detail-content-branding.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/detail-content-branding.html",
-      "oF" : 1
-    },
     "\/dev\/content\/detail-content.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -410,6 +404,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/web.html",
+      "oF" : 0
+    },
+    "\/dev\/detail.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/detail.html",
       "oF" : 0
     },
     "\/dev\/detail.kit" : {
@@ -489,6 +491,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/naviAnim-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/pageScroll.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/pageScroll-min.js",
       "oF" : 1,
       "sC" : 3,
       "tS" : 0

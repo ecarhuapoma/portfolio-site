@@ -388,18 +388,6 @@ body {
   height: 100vh;
 }
 
-#big-container {
-  overflow: scroll;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-}
-
-.container {
-  height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
-}
-
 /* =============
     Typography
 ============= */
@@ -508,95 +496,54 @@ textarea {
 }
 
 #branding-section {
-  background-color: cornflowerblue;
+  background-color: forestgreen;
+}
+#branding-section > div {
+  display: grid;
+  grid-template-columns: 30px 50% 50% 30px;
+  grid-template-areas: "h h . ." ". b i .";
+  padding-bottom: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+#branding-section > div header {
+  padding: 50px;
+  height: 0px;
+  font-size: 3.75rem;
+  grid-area: h;
+}
+#branding-section > div img {
+  grid-area: i;
+  height: 100%;
+}
+#branding-section > div b {
+  grid-area: b;
+  font-size: 1.25rem;
+}
+
+#type-pub-section {
+  background-color: greenyellow;
   display: grid;
   height: 100vh;
   width: 100vw;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". projects .";
+  grid-template-areas: "h h ." ". re .";
 }
-@media (min-width: 1200px) {
-  #branding-section {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-#branding-section > div {
-  grid-area: projects;
-}
-#branding-section > div #brandingHeader {
+#type-pub-section h1 {
+  grid-area: h;
   padding-top: 24px;
-  padding-left: 50px;
+  padding: 30px;
+  font-size: 3.75rem;
 }
 @media (min-width: 768px) {
-  #branding-section > div #brandingHeader {
+  #type-pub-section h1 {
     padding-top: 36px;
   }
 }
-#branding-section > div #brandingHeader h1 {
-  margin-bottom: 24px;
-}
-#branding-section > div #brandingGallery ul {
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  gap: 16px;
-  height: 80vh;
-}
-@media (min-width: 768px) {
-  #branding-section > div #brandingGallery ul {
-    height: 50vh;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1200px) {
-  #branding-section > div #brandingGallery ul {
-    height: 70vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
-    grid-template-areas: "p1 p2" "p3 p4";
-  }
-}
-#branding-section > div #brandingGallery ul li {
-  background-size: cover;
-  background-position: center;
-}
-@media (min-width: 1200px) {
-  #branding-section > div #brandingGallery ul li:nth-child(1) {
-    grid-area: p1;
-  }
-}
-@media (min-width: 1200px) {
-  #branding-section > div #brandingGallery ul li:nth-child(2) {
-    grid-area: p2;
-    border: 1px solid red;
-  }
-}
-@media (min-width: 1200px) {
-  #branding-section > div #brandingGallery ul li:nth-child(3) {
-    grid-area: p3;
-    border: 1px solid red;
-  }
-}
-@media (min-width: 1200px) {
-  #branding-section > div #brandingGallery ul li:nth-child(4) {
-    grid-area: p4;
-    border: 1px solid red;
-  }
-}
-#branding-section > div #brandingGallery ul li a:link, #branding-section > div #brandingGallery ul li a:visited {
-  height: 100%;
-  width: 100%;
-  display: inline-block;
-}
-
-#type-pub-section {
-  background-color: antiquewhite;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+#type-pub-section img {
+  grid-area: re;
+  align-self: center;
+  justify-self: center;
 }
 
 #motion-section {
@@ -630,7 +577,7 @@ textarea {
   display: grid;
   height: 100vh;
   width: 100vw;
-  background-color: cornflowerblue;
+  background-color: white;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". projects .";
 }
@@ -658,6 +605,19 @@ textarea {
   grid-template-rows: repeat(5, 1fr);
   gap: 16px;
   height: 80vh;
+}
+#projects > div #gallery ul h1 {
+  display: none;
+  font-size: 1.875rem;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+#projects > div #gallery ul #rises {
+  font-size: 1.875rem;
 }
 @media (min-width: 768px) {
   #projects > div #gallery ul {
@@ -698,6 +658,17 @@ textarea {
   #projects > div #gallery ul li:nth-child(4) {
     grid-area: p4;
   }
+}
+#projects > div #gallery ul li:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 20px -9px #000000;
+  transition: 0.25s;
+}
+#projects > div #gallery ul li:hover h1 {
+  display: flex;
+  background-color: magenta;
+  color: white;
+  transition: 0.5;
 }
 #projects > div #gallery ul li a:link, #projects > div #gallery ul li a:visited {
   height: 100%;

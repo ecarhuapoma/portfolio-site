@@ -5,19 +5,19 @@ export let projects = [
         images:['./projects/rise/box-img.jpg','./projects/rise/book-img.jpg']
     },
     {
-        title:"Cows",
-        description:"Ut id dui sed sapien sagittis commodo. Ut semper facilisis arcu eu pretium. Vivamus sit amet pharetra erat. Curabitur a sem sed dui accumsan tincidunt. Aliquam felis mi, eleifend at urna vel, laoreet malesuada risus. Morbi pellentesque fringilla purus eu rutrum. Nullam convallis aliquam risus. Donec ex augue, semper et felis vel, tempor posuere erat.",
-        images:['./projects/cows/cow-1.jpg','./projects/cows/cow-2.jpg']
+        title:"Dal Segno",
+        description:"trumpet man",
+        images:['./projects/dalseg/milesdavis.png']
     },
     {
-        title:"Zoo Animals",
-        description:"Duis ultricies feugiat erat eget tempor. Vestibulum bibendum est eu posuere suscipit. Pellentesque tincidunt sapien vitae elit vulputate vestibulum. Proin vel molestie ex. Ut vehicula nibh eu laoreet commodo. Aenean volutpat, nibh in faucibus semper, ipsum est feugiat ex, in volutpat sapien lacus ac massa. Vivamus vel nisi et sapien ullamcorper luctus sit amet sed magna. Sed porttitor sem id eros rhoncus aliquam. Phasellus dapibus, purus a consequat venenatis, nunc diam aliquam tellus, eget congue ante risus a augue. Morbi ut massa ut turpis consequat tincidunt.",
-        images:['./projects/zoo/zoo-1.jpg','./projects/zoo/zoo-2.jpg']
+        title:"Lighter Deconstruction",
+        description:"bongwater",
+        images:['./projects/lighters/set-1.png']
     },
     {
-        title:"Hamsters",
-        description: "I love me some good hamsters yes I do",
-        images:['./projects/hamsters/hamster1.jpg','./projects/hamsters/hamster2.jpg','./projects/hamsters/hamster3.jpg']
+        title:"Rittenhouse Pet Supply",
+        description: "barkj abrak krb akbrkabr ",
+        images:['./projects/pet-supply/pet-logo.png']
     },
     {
         title:"Hamsters",
